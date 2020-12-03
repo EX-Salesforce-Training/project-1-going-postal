@@ -22,19 +22,4 @@
             <default>false</default>
         </values>
     </picklistValues>
-    <picklistValues>
-        <picklist>Dummy__c</picklist>
-        <values>
-            <fullName>Dummy 1</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Dummy 2</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Dummy 3</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
 </RecordType>
