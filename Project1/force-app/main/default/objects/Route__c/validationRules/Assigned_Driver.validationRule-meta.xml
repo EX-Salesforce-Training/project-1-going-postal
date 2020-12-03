@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_Driver</fullName>
+    <active>true</active>
+    <description>Driver is required</description>
+    <errorConditionFormula>ISBLANK( Driver_Assigned__c )</errorConditionFormula>
+    <errorDisplayField>Driver_Assigned__c</errorDisplayField>
+    <errorMessage>Please assign driver to route</errorMessage>
+</ValidationRule>
