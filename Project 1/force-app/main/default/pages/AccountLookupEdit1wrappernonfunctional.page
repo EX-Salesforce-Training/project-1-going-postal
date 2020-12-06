@@ -1,0 +1,34 @@
+<apex:page controller="AccountLookupEditController">
+    <apex:form >
+        <apex:pageBlock title="Contact Information">
+            <apex:pageBlockButtons location="Bottom">
+               <apex:commandButton value="Save" action="{!contSave}" id="saveButton" />
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:pageBlockTable value="{!wrapperList}" var="cnt" border="black">
+                    <apex:column breakBefore="true" id="contName">
+                        <apex:outputLabel value="First Name:" />
+                        <apex:outputField value="{!cnt.cont.FirstName}" />
+                        <apex:outputLabel value="Last Name:" />
+                        <apex:outputField value="{!cnt.cont.LastName}" />
+                    </apex:column>
+                    <apex:column id="contAddress">
+                        <apex:outputLabel value="Mailing Address" />
+                        <apex:outputField value="{!cnt.add.Street_Name__c}" />
+                        <apex:outputField value="{!cnt.add.City__c}" />
+                        <apex:outputField value="{!cnt.add.State__c}" />
+                        <apex:outputField value="{!cnt.add.Zip_Code__c}" />
+                    </apex:column>
+                    <apex:column>
+                        <apex:outputLabel value="Owner:" />
+                        <apex:outputField value="{!cont.OwnerId}" />
+                    </apex:column>
+                  <apex:inlineEditSupport event="ondblclick" showOnEdit="saveButton" />
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+             <!--   <apex:commandButton value="Edit" -->
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -60,21 +60,17 @@
     <types>
         <members>Driver</members>
         <members>Mail Handler</members>
+        <members>Custom Customer User</members>
         <name>Profile</name>
     </types>
     <types>
         <members>Delivery_Status</members>
         <name>GlobalValueSet</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>GlobalValueSetTranslation</name>
-    </types>
      <types>
         <members>*</members>
         <name>SharingRules</name>
     </types>
-
      <types>
         <members>*</members>
         <name>Role</name>
@@ -99,7 +95,6 @@
         <members>Mail__c-Mail Layout</members>
         <members>Mail__c-Package Layout</members>
         <members>Route__c-Route Layout</members>
-
         <name>Layout</name>
     </types>
     <types>
@@ -108,6 +103,7 @@
         <name>EmailTemplate</name>
     </types>
     <types>
+        <members>Contact Lookup</members>
         <members>Address</members>
         <members>Inhabitant</members>
         <members>Mail</members>
