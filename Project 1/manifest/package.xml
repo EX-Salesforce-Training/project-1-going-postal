@@ -50,7 +50,9 @@
         <name>Flow</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Account</members>
+        <members<Address__c</members>
+        <members>Mail__c</members>
         <name>Workflow</name>
     </types>
     <types>
