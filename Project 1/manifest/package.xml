@@ -108,6 +108,7 @@
         <members>Inhabitant</members>
         <members>Mail</members>
         <members>Route</members>
+        <members>Mail List</members>
         <name>CustomTab</name>
     </types>
 
