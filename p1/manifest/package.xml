@@ -40,6 +40,7 @@
         <members>Inhabitant__c</members>
         <members>Mail__c</members>
         <members>Route__c</members>
+        <members>Knowledge__kav</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -81,6 +82,14 @@
         <members>Postal_Service_Lightning_Application</members>
         <name>CustomApplication</name>
     </types>
+        <types>
+        <members>Sharing</members>
+        <name>Settings</name>
+    </types>
+    <type>
+        <members>*</members>
+        <name>SharingCriteriaRules</name>
+        </types>
     <types>
         <members>Postal_Service_Lightning_Application_UtilityBar</members>
         <name>FlexiPage</name>
