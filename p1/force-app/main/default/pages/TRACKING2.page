@@ -1,0 +1,13 @@
+<apex:page controller="PackageTrackerController" >
+    <apex:form >
+        <apex:pageBlock >
+        <apex:pageBlockSection >
+                <apex:pageBlockTable value="{!Tracking}" var="Dstat" id="Tracker">
+                	<apex:column value="{!Dstat.Tracking_Number__c}"/>
+                    <apex:column value="{!Dstat.name}"/>
+                    <apex:column value="{!Dstat.Delivery_Status__c}"/>
+                </apex:pageBlockTable>                    
+            </apex:pageBlockSection> 
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

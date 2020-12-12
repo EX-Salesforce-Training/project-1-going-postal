@@ -3,7 +3,7 @@
     <!--<types>
         <members>Sharing</members>
         <name>Settings</name>
-    </types> -->
+    </types> 
     <types>
         <members>*</members>
         <name>Network</name>
@@ -12,14 +12,23 @@
         <members>*</members>
         <name>CustomSite</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
+
     <types>
         <members>*</members>
         <name>Document</name>
     </types>
-
+    <types>
+        <members>PackageTrackerController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>TRACKING</members>
+        <members>TRACKING2</members>
+        <name>ApexPage</name>
+    </types>-->
+    <types>
+        <members>Package_Tracking</members>
+        <name>CustomTab</name>
+    </types>
     <version>50.0</version>
 </Package>

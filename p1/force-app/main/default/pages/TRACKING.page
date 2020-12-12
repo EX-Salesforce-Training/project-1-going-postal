@@ -1,0 +1,19 @@
+<apex:page Controller="PackageTrackerController">
+    <apex:form >
+        <apex:pageBlock title="Hello {!$User.FirstName}!">
+            <apex:pageBlockSection >
+                Please Enter tracking number.
+                <apex:inputText value="{!Tnumber}" />
+                <apex:commandButton value="Track" action="{!TrackingInfo}" rerender="TrackingTable"/><p />
+                <!--  <apex:outputLabel id="Tracker">{!Tnumber}</apex:outputLabel> -->
+            </apex:pageBlockSection>
+            <apex:pageBlockSection >
+                <apex:pageBlockTable value="{!Tracking}" var="tnum" id="TrackingTable">
+                    <apex:column value="{!tnum.Tracking_Number__c}" />
+                    <apex:column value="{!tnum.Name}" />
+                    <apex:column value="{!tnum.Delivery_Status__c}" />
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+        </apex:pageBlock>    
+    </apex:form>    
+</apex:page>
