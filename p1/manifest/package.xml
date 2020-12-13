@@ -57,7 +57,7 @@
         <name>Workflow</name>
     </types>
     <types>
-        <members>Mail__c.Isusrance_Claim</members>
+        <members>Mail__c.Insurance_Claim</members>
         <name>ApprovalProcess</name>
     </types>
     <types>
