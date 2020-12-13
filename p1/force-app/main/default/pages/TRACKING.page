@@ -2,7 +2,7 @@
     <apex:form >
         <apex:pageBlock title="Hello {!$User.FirstName}!">
             <apex:pageBlockSection >
-                Please Enter tracking number.
+                Please enter a tracking number.
                 <apex:inputText value="{!Tnumber}" />
                 <apex:commandButton value="Track" action="{!TrackingInfo}" rerender="TrackingTable"/><p />
                 <!--  <apex:outputLabel id="Tracker">{!Tnumber}</apex:outputLabel> -->
