@@ -33,6 +33,7 @@
         <name>StaticResource</name>
     </types>
     <types>
+        <members>Case</members>
         <members>Account</members>
         <members>Contact</members>
         <members>User</members>
@@ -44,6 +45,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Case_Processes</members>
         <members>Account_Creation_Wizard</members>
         <members>Contact_Creator</members>
         <members>Contact_Processes</members>
