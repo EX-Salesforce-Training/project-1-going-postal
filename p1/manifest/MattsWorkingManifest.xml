@@ -30,5 +30,13 @@
         <members>Package_Tracking</members>
         <name>CustomTab</name>
     </types>-->
+    <types>
+        <members>Case</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Case_Processes</members>
+        <name>Flow</name>
+    </types>
     <version>50.0</version>
 </Package>
