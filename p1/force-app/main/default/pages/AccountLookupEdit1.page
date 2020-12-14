@@ -4,41 +4,90 @@
             <apex:pageBlockButtons location="Bottom">
                 <apex:commandButton value="Save" action="{!contSave}" id="saveButton" />
             </apex:pageBlockButtons>
-            <apex:pageBlockSection >
+          <apex:pageBlockSection >
                 <apex:pageBlockTable value="{!contactList}" var="cont" border="black">
-                    <apex:column breakBefore="true" id="contName">
+                    <div class="slds-truncate" title="First and Last Name">
+                         <apex:column value="{!cont.FirstName}" />
+                        <apex:column value="{!cont.LastName}" />   
+                    </div>
+              <!--      <apex:column breakBefore="true" id="contName">
                         <apex:outputLabel value="First Name:" />
                         <apex:outputField value="{!cont.FirstName}" />
                         <apex:outputLabel value="Last Name:" />
                         <apex:outputField value="{!cont.LastName}" />
-                    </apex:column>
-                   <!-- <apex:column id="contAddress">
+                    </apex:column>   
+                    <apex:column >
                         <apex:outputLabel value="Mailing Address" />
                         <apex:outputField value="{!cont.MailingStreet}" />
                         <apex:outputField value="{!cont.MailingCity}" />
                         <apex:outputField value="{!cont.MailingState}" />
                         <apex:outputField value="{!cont.MailingPostalCode}" />
-                    </apex:column> -->
+                    </apex:column> 
                     <apex:column >
                         <apex:outputLabel value="OwnerId:" />
                         <apex:outputField value="{!cont.OwnerId}" />
-                    </apex:column>
+                    </apex:column>   -->
                     <apex:inlineEditSupport event="ondblclick" showOnEdit="saveButton" />
                 </apex:pageBlockTable>
                 
-            </apex:pageBlockSection>
-            <apex:pageBlockSection >
+            </apex:pageBlockSection>   
+      <!--      <apex:pageBlockSection >   -->
+      <!--          <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_striped">
+                    <thead>
+                      <tr class="slds-line-height_reset">
+                        <th class="" scope="col">
+                          <div class="slds-truncate" title="Contact Name">Name</div>
+                        </th>
+                        <th class="" scope="col">
+                          <div class="slds-truncate" title="Address">Address</div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="slds-hint-parent">
+                        <th data-label="Contact Information" scope="row">
+                          <div class="slds-truncate" title="First and Last Name">
+                            <a href="javascript:void(0);" tabindex="-1">{!contactList.FirstName}</a>
+                          </div>
+                        </th>
+                      </tr>
+                      <tr class="slds-hint-parent">
+                        <th data-label="Address" scope="row">
+                          <div class="slds-truncate" title="Street">
+                            <a href="javascript:void(0);" tabindex="-1">{!addList.Street_Name__c}</a>
+                          </div>
+                        </th>
+                        <td data-label="City">
+                          <div class="slds-truncate" title="City">{!addList.City__c}</div>
+                        </td>
+                        <td data-label="State">
+                          <div class="slds-truncate" title="State">{!addList.State__c}</div>
+                        </td>
+                        <td data-label="Postal Code">
+                          <div class="slds-truncate" title="Postal Code">{!addList.Zip_Code__c}</div>
+                        </td> 
+                      </tr>
+                    </tbody>
+                  </table>   -->
                 <apex:pageBlockTable value="{!addList}" var="add">
-                    <apex:column id="addobject">
-                        <apex:outputLabel value="Address" />
-                        <apex:outputField value="{!add.Street_Name__c}" />
-                        <apex:outputField value="{!add.City__c}" />
-                        <apex:outputField value="{!add.State__c}" />
-                        <apex:outputField value="{!add.Zip_Code__c}" />
-                    </apex:column>
+<!--                    <apex:column id="addobject">
+                        <apex:outputLabel value="Address" />  -->
+					<div class="slds-truncate" title="Street">
+                         <apex:column value="{!add.Street_Name__c}" />
+                     </div>
+                    <div class="slds-truncate" title="City">
+                         <apex:column value="{!add.City__c}" />
+                    </div>  
+                    <div class="slds-truncate" title="State">
+                         <apex:column value="{!add.State__c}" />
+                    </div>   
+                    <div class="slds-truncate" title="Postal Code">
+                         <apex:column value="{!add.Zip_Code__c}" />
+                    </div>    
+     <!--              </apex:column>   -->
                     <apex:inlineEditSupport event="ondblclick" />
-                </apex:pageBlockTable>
-            </apex:pageBlockSection>
+             </apex:pageBlockTable>  
+         <!--   </apex:pageBlockSection>   -->
             <!--<apex:pageBlockButtons>
                 <apex:commandButton value="Edit"
             </apex:pageBlockButtons> -->
