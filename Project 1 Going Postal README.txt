@@ -14,6 +14,66 @@
 //  Sprints: 1 week
 //  Methodology: Scrumban – Harvey Hill’s Agile combination methodology (Scrum/Kanban)
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+# Project Description
+![Revature Logo](./Revature%20Logo.png "Revature Logo")
+
+# P1-Requirments
+
+Create a community for use with the postal service
+Use a Visualforce page inside the community
+
+## CORE (Required)
+*	Find and edit their account information (15%)
+*	Well-styled (15%)
+*	See a list of packages in shipping. (10%)
+*	See a list of past deliveries (10%)
+*	Allow a user to enter in a tracking code and find specific shipping details. (15%)
+## DATA (Bonus)
+*	Actionable Data Visualization (10%)
+## PROCESS AUTOMATION (Bonus)
+*	Implement Process Automation 
+  *	Workflow Rules (5%)
+  *	Approval Processes (5%)
+  *	Process Builder (2%)
+  *	Flow (5%)
+## SERVICE CLOUD (Bonus)
+*	Implementation of service cloud. (10%)
+  *	Ability to create and submit tickets (10%)
+  *	Ability to track and comment on open tickets. (3%)
+  *	Ability to see past tickets. (5%)
+## SALES CLOUD (Bonus)
+*	Implementation of sales cloud (10%)
+
+# Getting Started
+# Salesforce DX Project: Next Steps
+
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+
+## How Do You Plan to Deploy Your Changes?
+
+Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+
+## Configure Your Salesforce DX Project
+
+The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+
+## Read All About It
+
+- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
+- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+# Usage
+With is project users can create view and track mail/packages in a post office like organization.
+
+# Contributors
+Matt Levine
+Florence Frandsen
+Melvin Dokes
+
+Licensed under the [Acceptable Use and External-Facing Services Policy](https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/policies/ExternalFacing_Services_Policy.pdf).
+
 Note: Newest info will be inserted on top
 
 Other Notes: We had a few major problems with losing access to our git during this project, which slowed us down. 
@@ -118,51 +178,4 @@ Broke Epics up into User Stories on our Kanban board in Git.
 Also, setup a Parking Lot in Kanban for items that we will look at later, if time allows.
 Project Time estimate: 39 Hours
 
-# Salesforce DX Project: Next Steps
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
-
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
-
-- Project Requirements
-![Revature Logo](./Revature%20Logo.png "Revature Logo")
-
-# P1-Requirments
-
-Create a community for use with the postal service
-Use a Visualforce page inside the community
-
-## CORE (Required)
-*	Find and edit their account information (15%)
-*	Well-styled (15%)
-*	See a list of packages in shipping. (10%)
-*	See a list of past deliveries (10%)
-*	Allow a user to enter in a tracking code and find specific shipping details. (15%)
-## DATA (Bonus)
-*	Actionable Data Visualization (10%)
-## PROCESS AUTOMATION (Bonus)
-*	Implement Process Automation 
-  *	Workflow Rules (5%)
-  *	Approval Processes (5%)
-  *	Process Builder (2%)
-  *	Flow (5%)
-## SERVICE CLOUD (Bonus)
-*	Implementation of service cloud. (10%)
-  *	Ability to create and submit tickets (10%)
-  *	Ability to track and comment on open tickets. (3%)
-  *	Ability to see past tickets. (5%)
-## SALES CLOUD (Bonus)
-*	Implementation of sales cloud (10%)
