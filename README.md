@@ -176,8 +176,8 @@ All 3 of us are going through some Trailheads individually, to up our skills in 
 
 
 Project Time Estimate: updated to 39 hours 45 minutes
+***
 
--
 11/30/2020
 Broke project up into 3 Epics:
 1. Customer (Community)
